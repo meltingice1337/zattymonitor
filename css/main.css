@@ -98,4 +98,8 @@
 .line{
   height: 50px;
   background-color:grey;
+  font-family: 'Helvetica', sans-serif;
+  text-align: center;
+  padding: 15px;
+  color:white
 }
