@@ -1,3 +1,6 @@
+.menubuttons{
+  text-align: center;
+}
 .textdesc{
   text-align: center;
   color:grey;
@@ -23,15 +26,18 @@
     width: 10em;
     border: solid 1px;
     margin:5px;
+
   }
 }
 @media screen and (max-width: 480px) {
   .doi{
-    margin-left:40px;
+
     background-color: #4cb5f5;
     color:white;
     width: 10em;
     border: solid 1px;
+    margin-bottom: 15px;
+
   }
 }
 .doi:hover{
