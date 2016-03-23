@@ -1,0 +1,98 @@
+.textdesc{
+  text-align: center;
+  color:grey;
+  font-size:20px;
+}
+.descpic{
+  width: 15vmax;
+  height: 15vmax;
+  display: block;
+  margin-left: auto;
+  margin-right: auto ;
+}
+.descriere{
+  color:grey;
+  text-align: center;
+  padding-top: 10px;
+}
+@media screen and (min-width: 480px) {
+  .doi{
+    float:right;
+    background-color: #4cb5f5;
+    color:white;
+    width: 10em;
+    border: solid 1px;
+    margin:5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .doi{
+    margin-left:40px;
+    background-color: #4cb5f5;
+    color:white;
+    width: 10em;
+    border: solid 1px;
+  }
+}
+.doi:hover{
+  background-color: white;
+  color:#4cb5f5;
+  border: none;
+}
+.butondownload{
+  background-color: #4cb5f5;
+  color:white;
+  width: 10em;
+  height: 2.5em;
+  border: solid 1px;
+  margin:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto ;
+}
+.butondownload:hover{
+  background-color: white;
+  color:black;
+  color:#4cb5f5;
+}
+.elements{
+  padding: 50px;
+}
+.header{
+  background-color: #4cb5f5;
+  padding: 25px;
+  word-break: keep-all;
+}
+.titlu{
+  color:white;
+  font-size: 6vmax;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+.logo{
+  width: 60vmax;
+  height: 28vmax;
+  display: block;
+  margin-left: auto;
+  margin-right: auto ;
+
+}
+.motto{
+  text-align: center;
+  font-size: 3vmax;
+  font-family: 'Helvetica', sans-serif;
+  color: white;
+}
+
+.continut{
+  word-break: keep-all;
+  font-size: 1.5em;
+  color: black;
+  font-family: 'helvetica', sans-serif;
+  background-color: white;
+  height: 100%;
+}
+.line{
+  height: 50px;
+  background-color:white;
+}
