@@ -1,5 +1,25 @@
+.enterbutton{
+  background-color: #4cb5f5;
+  color:white;
+  width: 10em;
+  border: solid 1px;
+  text-align: center;
+  display: table;
+  margin: 10px auto;
+}
+.enterbutton:hover{
+  background-color: white;
+  color:#4cb5f5;
+  width: 10em;
+  border: solid 1px;
+  text-align: center;
+  display: table;
+  margin: 10px auto;
+}
+
 .registerinputs{
-  padding: 15px;
+  padding: 25px;
+  margin-top: 10px;
 }
 
 .fixpic{
@@ -127,6 +147,4 @@
     color:white;
     position:absolute;
     bottom:0;
-    width:100%;
-
 }
