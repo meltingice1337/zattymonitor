@@ -1,3 +1,19 @@
+.registerinputs{
+  padding: 15px;
+}
+
+.fixpic{
+  width: 150px;
+}
+.fixpart{
+  background-color: #4cb5f5;
+  word-break: keep-all;
+  padding: 5px;
+  font-family: 'Pacifico', cursive;
+  color:white;
+  text-align: center;
+}
+
 .menubuttons{
   text-align: center;
 }
@@ -102,4 +118,15 @@
   text-align: center;
   padding: 15px;
   color:white
+}
+.footer{
+    background-color:grey;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    padding: 15px;
+    color:white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+
 }
