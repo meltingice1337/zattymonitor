@@ -1,3 +1,79 @@
+
+@media screen and (min-width:768px) {
+  .dropdownuser{
+    display:block;
+    float: right;
+    margin-top: -50px;
+    color:white;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width:768px) {
+  .dropdownuser{
+    margin-right: 10px;
+  }
+}
+.userbutton{
+  background-color: transparent;
+  border:none;
+  margin-left: 10px;
+}
+
+.userbutton.active, .userbutton:active, .open > .dropdown-toggle.userbutton,
+.userbutton.active.focus, .userbutton.active:focus, .userbutton.active:hover, .userbutton.focus:active,
+ .userbutton:active:focus, .userbutton:active:hover, .open > .dropdown-toggle.userbutton.focus,
+ .open > .dropdown-toggle.userbutton:focus, .open > .dropdown-toggle.userbutton:hover,
+ .userbutton.focus, .userbutton:focus {
+  border:none;
+  background-color: white;
+  color:#4cb5f5;
+  margin-left: 10px;
+}
+.userbutton:hover{
+  border:none;
+  background-color: white;
+  color:#4cb5f5;
+  margin-left: 10px;
+}
+.fixpart img{
+  margin: 0 auto;
+  display:block;
+}
+.trackedpc a{
+  text-decoration: none;
+  color:black;
+}
+.pcpanel:hover{
+  opacity: 0.7;
+}
+.pcnickname{
+  font-style: italic;
+  text-align: center;
+  margin-top: 1px;
+  color:grey;
+  margin: -5px;
+}
+.pclastseen{
+  text-align: center;
+  margin-top:10px;
+  margin-bottom: 0;
+}
+.pcname{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  margin:0;
+
+}
+.img-pc{
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+.pclist{
+  padding-top:10px;
+}
 .enterbutton{
   background-color: #4cb5f5;
   color:white;
@@ -21,16 +97,13 @@
   padding: 25px;
   margin-top: 10px;
 }
-
-.fixpic{
-  width: 150px;
-}
 .fixpart{
   background-color: #4cb5f5;
   word-break: keep-all;
   padding: 5px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Helvetica', sans-serif;
   color:white;
+  display: block;
   text-align: center;
 }
 
@@ -62,15 +135,6 @@
     border: solid 1px;
     margin:5px;
   }
-  .footer{
-      background-color:grey;
-      font-family: 'Helvetica', sans-serif;
-      text-align: center;
-      padding: 15px;
-      color:white;
-      bottom:0;
-      position: fixed;
-  }
 }
 @media screen and (max-width: 480px) {
   .doi{
@@ -80,15 +144,6 @@
     width: 10em;
     border: solid 1px;
     margin-bottom: 15px;
-  }
-
-  .footer{
-      background-color:grey;
-      font-family: 'Helvetica', sans-serif;
-      text-align: center;
-      padding: 15px;
-      color:white;
-      bottom:0;
   }
 }
 .doi:hover{
@@ -119,6 +174,7 @@
   background-color: #4cb5f5;
   padding: 25px;
   word-break: keep-all;
+  font-size: 50px;
 }
 .titlu{
   color:white;
