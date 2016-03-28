@@ -61,7 +61,15 @@
     width: 10em;
     border: solid 1px;
     margin:5px;
-
+  }
+  .footer{
+      background-color:grey;
+      font-family: 'Helvetica', sans-serif;
+      text-align: center;
+      padding: 15px;
+      color:white;
+      bottom:0;
+      position: fixed;
   }
 }
 @media screen and (max-width: 480px) {
@@ -72,7 +80,15 @@
     width: 10em;
     border: solid 1px;
     margin-bottom: 15px;
+  }
 
+  .footer{
+      background-color:grey;
+      font-family: 'Helvetica', sans-serif;
+      text-align: center;
+      padding: 15px;
+      color:white;
+      bottom:0;
   }
 }
 .doi:hover{
@@ -139,15 +155,7 @@
   padding: 15px;
   color:white
 }
-.footer{
-    background-color:grey;
-    font-family: 'Helvetica', sans-serif;
-    text-align: center;
-    padding: 15px;
-    color:white;
-    position:fixed;
-    bottom:0;
-}
+
 .privacyterms{
   border: none;
   background-color: none;
