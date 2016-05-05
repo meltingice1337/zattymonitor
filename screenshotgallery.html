@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/menu.css">
-  <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="css/lightgallery.min.css">
   <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link rel="icon" type="image/png" href="favicon2.png">
@@ -18,149 +18,86 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/chart.js"></script>
   <script src="js/bootstrap-datetimepicker.min.js"></script>
-  <script src="js/jquery.blueimp-gallery.min.js"></script>
-  <script src="js/bootstrap-image-gallery.min.js"></script>
+  <script src="js/lg-thumbnail.min.js"></script>
+  <script src="js/lg-fullscreen.min.js"></script>
+  <script src="js/lightgallery.min.js"></script>
+
 </head>
 <body>
   <div class="fixpart header2">
     <img src="images/logo3.png"/>
     <div class="dropdown dropdownuser ">
- <button class="btn btn-primary dropdown-toggle userbutton" type="button" data-toggle="dropdown"><i class="fa fa-user"></i> gherasimraul@yahoo.com
- <span class="caret"></span></button>
- <ul class="dropdown-menu">
-   <li><a href="profile.html">Home</a></li>
-   <li><a href="myprofile.html ">My profile</a></li>
-   <li><a href="#">Help</a></li>
-   <li><a href="#">Log out</a></li>
- </ul>
-</div>
-  </div>
-  <div class="well computerstatus col-md-12 col-xs-12"><h1 class="pcnicknameandstat">NICKNAME PC </h1>
-    <p class="pcsname"> (real pcname)</p>
-    <h1 class="onlinestat">Online</h1>
-    <h1 class="offlinestat">Offline</h1>
-    <a href="" class="btn btn-default screenshotpage">Screenshot</a>
+      <button class="btn btn-primary dropdown-toggle userbutton" type="button" data-toggle="dropdown"><i class="fa fa-user"></i> gherasimraul@yahoo.com
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="profile.html">Home</a></li>
+          <li><a href="myprofile.html ">My profile</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Log out</a></li>
+        </ul>
+      </div>
     </div>
+    <div class="well computerstatus col-md-12 col-xs-12"><h1 class="pcnicknameandstat">NICKNAME PC </h1>
+      <p class="pcsname"> (real pcname)</p>
+      <h1 class="onlinestat">Online</h1>
+      <h1 class="offlinestat">Offline</h1>
+      <a href="" class="btn btn-default screenshotpage">Screenshot</a>
+      <h4 style="font-style:italic; margin-left:15px; color:grey">You can take up to 10 screnshots a day!</h4>
+      <p style="float:left; margin-left:15px; font-size:25px;">Screenshots gallery</p>
+    </div>
+
   </br>
-  </div>
-  <div class="col-md-12 col-xs-12">
-    <h4 style="font-style:italic">You can take up to 10 screnshots a day!</h4>
-  </div>
-  <div class="col-md-4 col-xs-12 col-sm-6 livesesion">
-      <div class="panel panel-default currentactivitypanel">
-        <div class="panel-heading">
-          <p class="currentactivity">Current activity: OLX - Google Chrome </p>
-         </div>
-        <div class="panel-body">
-          <p class="recentactivities">Recent activities: </p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
-          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+</div>
+<div class="col-md-8 col-xs-12 ">
+
+</div>
+
+<div class="col-md-12 col-xs-12 col-sm-6 photolibrary">
+
+      <div id="lightgallery"  >
+
+        <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg"data-sub-html="<p>12.04.2016 at 15:25:45</p>">
+          <div class="col-md-3">
+            <p style="text-align:center">12.04.2016 at 15:25:45</p>
+          <img  class="thumbnailimages img-responsive"src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" />
         </div>
+        </a>
+        <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg"data-sub-html="<p>12.04.2016 at 15:25:45</p>">
+          <div class="col-md-3">
+            <p style="text-align:center">12.04.2016 at 15:25:45</p>
+          <img  class="thumbnailimages img-responsive"src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" />
+        </div>
+        </a>
+        <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg"data-sub-html="<p>12.04.2016 at 15:25:45</p>">
+          <div class="col-md-3">
+            <p style="text-align:center">12.04.2016 at 15:25:45</p>
+          <img  class="thumbnailimages img-responsive"src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" />
+        </div>
+        </a>
+        <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg"data-sub-html="<p>12.04.2016 at 15:25:45</p>">
+          <div class="col-md-3">
+            <p style="text-align:center">12.04.2016 at 15:25:45</p>
+          <img  class="thumbnailimages img-responsive"src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" />
+        </div>
+        </a>
+        <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg"data-sub-html="<p>12.04.2016 at 15:25:45</p>">
+          <div class="col-md-3">
+            <p style="text-align:center">12.04.2016 at 15:25:45</p>
+          <img  class="thumbnailimages img-responsive"src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" />
+        </div>
+        </a>
+        <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg"data-sub-html="<p>12.04.2016 at 15:25:45</p>">
+          <div class="col-md-3">
+            <p style="text-align:center">12.04.2016 at 15:25:45</p>
+          <img  class="thumbnailimages img-responsive"src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" />
+        </div>
+        </a>
+
       </div>
-  </div>
-  <div class="col-md-8 col-xs-12 col-sm-6 statistics">
-      <div class="panel panel-default ">
-        <div class="panel-heading">
-          <p class="currentactivity">Screenshots gallery</p>
-         </div>
-        <div class="panel-body">
-          <div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
     </div>
-</div>
-
-<div id="links">
-    <a href="http://www.planwallpaper.com/static/images/i-should-buy-a-boat.jpg" title="Banana" data-gallery>
-        <img class="img-responsive "src="http://www.planwallpaper.com/static/images/i-should-buy-a-boat.jpg" alt="Banana">
-    </a>
-    <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" title="Apple" data-gallery>
-        <img class="img-responsive screenshothistory" src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" alt="Apple">
-    </a>
-    <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" title="Orange" data-gallery>
-        <img class="img-responsive screenshothistory" src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" alt="Orange">
-    </a>
-    <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" title="Orange" data-gallery>
-        <img class="img-responsive screenshothistory" src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" alt="Orange">
-    </a>
-    <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" title="Orange" data-gallery>
-        <img class="img-responsive screenshothistory" src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" alt="Orange">
-    </a>
-    <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" title="Orange" data-gallery>
-        <img class="img-responsive screenshothistory" src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" alt="Orange">
-    </a>
-    <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" title="Orange" data-gallery>
-        <img class="img-responsive screenshothistory" src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" alt="Orange">
-    </a>
-    <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" title="Orange" data-gallery>
-        <img class="img-responsive screenshothistory" src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" alt="Orange">
-    </a>
-    <a href="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" title="Orange" data-gallery>
-        <img class="img-responsive screenshothistory" src="https://wallpaperscraft.com/image/bear_grizzly_bear_eyes_nose_85885_1920x1080.jpg" alt="Orange">
-    </a>
-
-        </div>
-      </div>
-  </div>
-</div>
 <script>
-var ctx = document.getElementById("TodayChart");
-var myChart = new Chart(ctx, {
-   type: 'bar',
-   data: {
-       labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-       datasets: [{
-           backgroundColor: ["#FF6384",
-            "#000",
-            "#FFCE56",
-            "#E7E9ED",
-            "#012400",
-            "#000"],
-
-           label: 'Minutes Spend ',
-           data: [12, 24, 3, 5, 2, 3]
-       }]
-   },
-   options: {
-     responsive: true,
-   maintainAspectRatio: false
-   }
+$(document).ready(function() {
+  $("#lightgallery").lightGallery();
 });
 </script>
 

@@ -1,9 +1,14 @@
-.screenshothistory{
-  width: 100px;
-  height: 56px;
+.thumbnailimages{
   display: inline-block;
-  margin-top: 5px;
+
+
 }
+.thumbnailimages:hover{
+    opacity: 0.95;
+}
+.photolibrary{
+}
+
 .screenshotpage{
   display: inline-block;
   float:right;
