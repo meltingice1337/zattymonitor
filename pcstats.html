@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>PC stats </title>
+  <meta name="description" content="find out what yo mama is doing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link rel="icon" type="image/png" href="favicon2.png">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/bootstrap-datetimepicker.min.js"></script>
+  <script src="js/jquery.blueimp-gallery.min.js"></script>
+  <script src="js/bootstrap-image-gallery.min.js"></script>
+</head>
+<body>
+  <div class="fixpart header2">
+    <img src="images/logo3.png"/>
+    <div class="dropdown dropdownuser ">
+ <button class="btn btn-primary dropdown-toggle userbutton" type="button" data-toggle="dropdown"><i class="fa fa-user"></i> gherasimraul@yahoo.com
+ <span class="caret"></span></button>
+ <ul class="dropdown-menu">
+   <li><a href="profile.html">Home</a></li>
+   <li><a href="myprofile.html ">My profile</a></li>
+   <li><a href="#">Help</a></li>
+   <li><a href="#">Log out</a></li>
+ </ul>
+</div>
+  </div>
+  <div class="well computerstatus col-md-12 col-xs-12"><h1 class="pcnicknameandstat">NICKNAME PC </h1>
+    <p class="pcsname"> (real pcname)</p>
+    <h1 class="onlinestat">Online</h1>
+    <h1 class="offlinestat">Offline</h1>
+    <br><p class="pclastseen"style="font-size:30px ">Last seen at 15:25 - 20.04.2016</p>
+    <a href="" class="btn btn-default changenicknamebutton">Change Nickname</a>
+    <div class="form-group inputnickname">
+      <input type="text" class="form-control" id="usr">
+    </div>
+  </br>
+  </div>
+  <div class="col-md-12 col-xs-12">
+    <a href="" class="btn btn-default screenshot">Screenshot</a><h4 style="font-style:italic">Wanna see what's really happening? Screenshot the live session right now!</h4>
+  </div>
+  <div class="col-md-4 col-xs-12 col-sm-6 livesesion">
+      <div class="panel panel-default currentactivitypanel">
+        <div class="panel-heading">
+          <p class="currentactivity">Current activity: OLX - Google Chrome </p>
+         </div>
+        <div class="panel-body">
+          <p class="recentactivities">Recent activities: </p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+          <p class="activities">Youtube - Google Chrome - 17:26:35</p>
+        </div>
+      </div>
+  </div>
+  <div class="col-md-8 col-xs-12 col-sm-6 statistics">
+      <a href="statistics.html">
+      <div class="panel panel-default ">
+        <div class="panel-heading">
+          <p class="currentactivity">Statistics. Click too see all time history.</p>
+         </div>
+        <div class="panel-body">
+          <div class="col-md-12" style="height:400px">
+          <canvas id="TodayChart" width="400" height="400" ></canvas>
+        </div>
+        </div>
+      </div>
+    </a>
+  </div>
+
+<script>
+var ctx = document.getElementById("TodayChart");
+var myChart = new Chart(ctx, {
+   type: 'bar',
+   data: {
+       labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+       datasets: [{
+           backgroundColor: ["#FF6384",
+            "#000",
+            "#FFCE56",
+            "#E7E9ED",
+            "#012400",
+            "#000"],
+
+           label: 'Minutes Spend ',
+           data: [12, 24, 3, 5, 2, 3]
+       }]
+   },
+   options: {
+     responsive: true,
+   maintainAspectRatio: false
+   }
+});
+</script>
+
+
+</body>
+</html>

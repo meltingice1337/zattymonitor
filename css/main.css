@@ -1,4 +1,139 @@
+.faqtitle{
+  color:black;
+}
+.casa{
+  float: left;
+  margin-top: -50px;
+}
+.myprofilecontainer{
+  font-size:20px;
+  font-family: 'Helvetica', cursive;
+  text-align: center;
+}
+.proceedbutton{
+  display: inline-block;
+  margin-right: 13px;
+    background-color: #4cb5f5;
+    color:white;
+    width: 10em;
+    border: solid 1px;
+    text-align: center;
+}
+.proceedbutton:hover{
+  background-color: white;
+  color:#4cb5f5;
+  width: 10em;
+  border: solid 1px;
+}
+.well{
+  height:100%;
+}
+.hidden{
+  display: none;
+}
+.datepicker{
+  margin-left: 15px;
 
+}
+.applicationselector{
+  margin-left: 30px;
+  display: inline-block;
+}
+.screenshot{
+  display: inline-block;
+  float:left;
+  margin-right: 13px;
+    background-color: #4cb5f5;
+    color:white;
+    width: 10em;
+    border: solid 1px;
+    text-align: center;
+    display: table;
+  }
+  .screenshot:hover{
+    background-color: white;
+    color:#4cb5f5;
+    width: 10em;
+    border: solid 1px;
+}
+.profilename{
+  font-family: 'Helvetica', cursive;;
+  font-size:30px;
+  display: inline-block;
+}
+.inputnickname{
+  display: inline-block;
+  float:right;
+  margin-right: 5px;
+}
+.computerstatus{
+  text-align: left;
+}
+.pcsname{
+  display: inline-block;
+  font-size: 20px;
+}
+.changenicknamebutton{
+  display: inline-block;
+  float:right;
+  margin-right: 13px;
+    background-color: #4cb5f5;
+    color:white;
+    width: 10em;
+    border: solid 1px;
+    text-align: center;
+    display: table;
+  }
+  .changenicknamebutton:hover{
+    background-color: white;
+    color:#4cb5f5;
+    width: 10em;
+    border: solid 1px;
+}
+.pclastseen{
+  display: inline;
+  margin:13px;
+  color:grey;
+}
+.pclastseen2{
+  text-align: center;
+  margin:13px;
+  color:grey;
+}
+.pcnicknameandstat{
+  margin-left: 13px;
+  display: inline-block;
+}
+.offlinestat{
+  display: inline;
+  color:red;
+}
+.onlinestat{
+  display: inline;
+  color:green;
+}
+.statistics{
+  margin-top: 13px;
+}
+.activities{
+  text-align: center;
+}
+.currentactivity{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  margin:0;
+  text-align: center;
+}
+.livesesion{
+  margin-top:13px;
+}
+.recentactivities{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+}
 @media screen and (min-width:768px) {
   .dropdownuser{
     display:block;
@@ -7,11 +142,19 @@
     color:white;
     margin-right: 10px;
 }
+.myprofilemenu{
+  float:right;
+}
+
 }
 @media screen and (max-width:768px) {
   .dropdownuser{
     margin-right: 10px;
   }
+  .myprofilemenu{
+    float:none;
+  }
+
 }
 .userbutton{
   background-color: transparent;
