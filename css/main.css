@@ -1,3 +1,26 @@
+.screenshothistory{
+  width: 100px;
+  height: 56px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.screenshotpage{
+  display: inline-block;
+  float:right;
+  margin-top:20px; ;
+    background-color: #4cb5f5;
+    color:white;
+    width: 10em;
+    border: solid 1px;
+    text-align: center;
+    display: table;
+  }
+  .screenshotpage:hover{
+    background-color: white;
+    color:#4cb5f5;
+    width: 10em;
+    border: solid 1px;
+}
 .faqtitle{
   color:black;
 }
