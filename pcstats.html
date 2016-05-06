@@ -27,24 +27,37 @@
     <div class="dropdown dropdownuser ">
  <button class="btn btn-primary dropdown-toggle userbutton" type="button" data-toggle="dropdown"><i class="fa fa-user"></i> gherasimraul@yahoo.com
  <span class="caret"></span></button>
- <ul class="dropdown-menu">
-   <li><a href="profile.html">Home</a></li>
-   <li><a href="myprofile.html ">My profile</a></li>
-   <li><a href="#">Help</a></li>
+ <ul class="dropdown-menu dropdownclass">
+   <li><a href="faq.html">FAQ</a></li>
    <li><a href="#">Log out</a></li>
  </ul>
 </div>
   </div>
-  <div class="well computerstatus col-md-12 col-xs-12"><h1 class="pcnicknameandstat">NICKNAME PC </h1>
+  <div class="well" >
+    <div class="menu" >
+      <p class="profilename">Tracked computer information</p>
+    <ul class="nav nav-pills myprofilemenu"style="display:inline-block">
+      <li role="presentation"><a href="profile.html" id="dashboardbutton">Dashboard</a></li>
+      <li role="presentation"><a href="myprofile.html" id="profilebutton">Profile</a></li>
+    </ul>
+  </div>
+  </div>
+  <div class="well computerstatus col-md-12 col-xs-12">
+    <h1 class="pcnicknameandstat">NICKNAME PC </h1>
     <p class="pcsname"> (real pcname)</p>
     <h1 class="onlinestat">Online</h1>
     <h1 class="offlinestat">Offline</h1>
-    <br><p class="pclastseen"style="font-size:30px ">Last seen at 15:25 - 20.04.2016</p>
+    <div class="changenicknamebuttonandinput">
     <a href="" class="btn btn-default changenicknamebutton">Change Nickname</a>
     <div class="form-group inputnickname">
       <input type="text" class="form-control" id="usr">
     </div>
+  </div>
+  <div style="padding-top:20px">
+    <br>
+    <p class="pclastseen"style="font-size:30px ">Last seen at 15:25 - 20.04.2016</p>
   </br>
+</div>
   </div>
   <div class="col-md-12 col-xs-12">
     <a href="screenshotgallery.html" class="btn btn-default screenshot">Screenshot</a><h4 style="font-style:italic">Wanna see what's really happening? Screenshot the live session right now!</h4>

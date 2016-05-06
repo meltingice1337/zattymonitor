@@ -1,7 +1,11 @@
+.changenicknamebuttonandinput{
+  margin-top: -50px;
+}
+.menu{
+  margin-bottom: -15px;
+}
 .thumbnailimages{
   display: inline-block;
-
-
 }
 .thumbnailimages:hover{
     opacity: 0.95;
@@ -88,6 +92,7 @@
   font-family: 'Helvetica', cursive;;
   font-size:30px;
   display: inline-block;
+  margin-left: 15px;
 }
 .inputnickname{
   display: inline-block;
@@ -176,9 +181,11 @@
 
 }
 @media screen and (max-width:768px) {
-  .dropdownuser{
-    margin-right: 10px;
+
+  .dropdownclass{
+    margin-left: 35%;
   }
+
   .myprofilemenu{
     float:none;
   }
@@ -187,7 +194,8 @@
 .userbutton{
   background-color: transparent;
   border:none;
-  margin-left: 10px;
+  float:none;
+
 }
 
 .userbutton.active, .userbutton:active, .open > .dropdown-toggle.userbutton,

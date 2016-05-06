@@ -20,25 +20,24 @@
   <div class="fixpart header2">
     <img src="images/logo3.png"/>
     <div class="dropdown dropdownuser ">
-      <button class="btn btn-primary dropdown-toggle userbutton" type="button" data-toggle="dropdown"><i class="fa fa-user"></i> gherasimraul@yahoo.com
-        <span class="caret"></span></button>
-        <ul class="dropdown-menu">
-          <li><a href="profile.html">Home</a></li>
-          <li><a href="myprofile.html">My profile</a></li>
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Log out</a></li>
-        </ul>
-      </div>
-    </div>
+ <button class="btn btn-primary dropdown-toggle userbutton" type="button" data-toggle="dropdown"><i class="fa fa-user"></i> gherasimraul@yahoo.com
+ <span class="caret"></span></button>
+ <ul class="dropdown-menu dropdownclass">
+   <li><a href="faq.html">FAQ</a></li>
+   <li><a href="#">Log out</a></li>
+ </ul>
+</div>
+</div>
 
     <div class="well" >
-      <div class="profilename" >
-        George Martin
-      </div>
+      <div class="menu" >
+      <p class="profilename">My profile</p>
       <ul class="nav nav-pills myprofilemenu"style="display:inline-block">
-        <li role="presentation"><a href="#" id="profilebutton">Profile</a></li>
-        <li role="presentation"><a href="#" id="faqbutton">FAQ</a></li>
+        <li role="presentation"><a href="profile.html" id="dashboardbutton">Dashboard</a></li>
+        <li role="presentation"><a href="myprofile.html" id="profilebutton">Profile</a></li>
+
       </ul>
+    </div>
     </div>
     <div id="profilecontent">
       <div class="col-md-4 col-xs-12">
@@ -48,7 +47,6 @@
               <p class="">Account Information</p>
             </div>
             <div class="panel-body" style="">
-              <p> Name: George Martin </p>
               <p> Email: eorgeartin@yahoo.com </p>
               <p> Member since: 03.12.1997 </p>
             </div>
@@ -89,74 +87,13 @@
       </div>
     </div>
   </div>
-  <div id="faqcontent" class="hidden myprofilecontainer col-md-8 col-xs-12 col-md-offset-2">
-    <div class="panel panel-default ">
-      <div class="panel-heading">
-        <p class="">Frequently Asked</p>
-      </div>
-      <div class="panel-body" style="color:grey">
 
-<p class="faqtitle">
-Is Zatty Monitor really free?
-</p>
-<p>
-Yes. Zatty Monitor is free for everyone, worldwide.
-</p>
-<p class="faqtitle">
-Is my data safe with Zatty Monitor?
-</p>
-<p>
-Of course. Our developers are working hard to keep you and your data secured, no matter what.
-</p>
-<p class="faqtitle">
-How can i get assistance?
-</p>
-<p>
-Of course. Our developers are working hard to keep you and your data secured, no matter what.
-</p>
-<p class="faqtitle">
-Can I cancel my account at any time?
-</p>
-<p>
-Absolutely. There's no contract and billing is month to month. Although we hope you stay, we only want customers using ZattyMonitor who feel it's valuable to their business.
-</p>
-      </div>
-    </div>
-  </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/chart.js"></script>
   <script src="js/angular.min.js"></script>
   <script src="js/bootstrap-datetimepicker.min.js"></script>
-  <script>
-  $("#passwordbutton").on("click", function(){
-    $("#profilecontent").removeClass("hidden");
-    $("#passwordcontent").removeClass("hidden");
-    $("#trackedpccontent").removeClass("hidden");
-    $("#faqcontent").addClass("hidden");
-  });
-  $("#trackedpcbutton").on("click", function(){
-    $("#profilecontent").removeClass("hidden");
-    $("#passwordcontent").removeClass("hidden");
-    $("#trackedpccontent").removeClass("hidden");
-    $("#faqcontent").addClass("hidden");
 
-  });
-  $("#faqbutton").on("click", function(){
-    $("#profilecontent").addClass("hidden");
-    $("#passwordcontent").addClass("hidden");
-    $("#trackedpccontent").addClass("hidden");
-    $("#faqcontent").removeClass("hidden");
-
-  });
-  $("#profilebutton").on("click", function(){
-    $("#profilecontent").removeClass("hidden");
-    $("#passwordcontent").removeClass("hidden");
-    $("#trackedpccontent").removeClass("hidden");
-    $("#faqcontent").addClass("hidden");
-
-  });
-  </script>
 </body>
 </html>
