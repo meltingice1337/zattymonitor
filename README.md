@@ -33,7 +33,7 @@ This software is licenesed under Attribution-NonCommercial-ShareAlike 4.0 Intern
 Credits
 ---
 
-Laravel 
+Laravel    
 https://laravel.com/  
   
 fastJSON  
