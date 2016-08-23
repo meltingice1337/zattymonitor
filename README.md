@@ -32,10 +32,24 @@ This software is licenesed under Attribution-NonCommercial-ShareAlike 4.0 Intern
 
 Credits
 ---
+Server-Side
+- Laravel    
+  https://laravel.com/  
 
-Laravel    
-https://laravel.com/  
+- lightGallery    
+  http://sachinchoolur.github.io/lightGallery/    
+
+- Bootstrap   
+  http://getbootstrap.com/
+
+- jQuery    
+  https://jquery.com/
+
+- Date Range Picker     
+  http://www.daterangepicker.com/
+
+Client-Side
   
-fastJSON  
-https://fastjson.codeplex.com/  
+- fastJSON  
+  https://fastjson.codeplex.com/  
 
